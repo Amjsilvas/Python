@@ -1,0 +1,18 @@
+n1 = int(input('Digite um número:'))
+n2 = int(input('Digite mais um número'))
+s = n1 + n2
+print('A soma vale',s)
+
+int = números inteiros ex: 7, -4, 0 
+float = números reais ou de pontó flutuante ex: 4.5, 0.076, -15.223
+bool = valores lógicos ou booleanos ex: True, False (sempre quando for usar a palavra True como valor booleano, colocar o 'T' maiúsculo e o mesmo para False)
+str = valores caracteres ou strings ex: 'Olá', '7.5', ''(string vazia)
+
+Formas de escrever o print
+print('A soma vale',s)
+print('A soma vale {}'.format(s))
+print('A soma entre {} e {} vale {}'.format(n1, n2, s))
+
+para saber o tipo primitivo de um valor:
+print(type(n1))
+
